@@ -7,17 +7,23 @@ root@Hiwifi:/etc/aria2c# opkg update
 Downloading https://upgrade.hiwifi.com/upgrade_file/mtmips-HC5761A/1.3.5.18462s/packages/Packages.gz.
 Inflating https://upgrade.hiwifi.com/upgrade_file/mtmips-HC5761A/1.3.5.18462s/packages/Packages.gz.
 Updated list of available packages in /var/opkg-lists/barrier_breaker.
+
+
 root@Hiwifi:/etc/aria2c# opkg list | grep aria
 aria2 - 1.18.8-20150826 - aria2 is a lightweight multi-protocol & multi-source command-line download
 hwf-aria2 - 0.0.2-20150723 - hwf-aria2 is a set of lua lib for aria2
+
+
 2、执行安装aria2
 root@Hiwifi:/etc/aria2c# opkg install aria2
-拷贝配置文件
-cp /etc/aria2c/aria2c.conf.demo /etc/aria2c/aria2c.conf
+
+拷贝配置文件cp /etc/aria2c/aria2c.conf.demo /etc/aria2c/aria2c.conf
+
 *配置文件aria2c.conf 已上传，配置中可自行修改下载文件存放的目录
 
 3、添加启动脚本aria2c.sh到/etc/init.d/目录
 *aria2c.sh 启动脚本已上传
+
 4、chmod +x /etc/init.d/aria2c.sh
 
 
