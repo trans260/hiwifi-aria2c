@@ -38,6 +38,7 @@ root@Hiwifi:/etc/aria2c# /etc/init.d/aria2c.sh start
 
 7、查看是否启动：
 root@Hiwifi:/etc/aria2c# ps  | grep aria
+
 22194 root      7252 S    /usr/bin/aria2c --conf-path=/etc/aria2c/aria2c.conf -D
 25658 root      1524 S    grep aria
 
