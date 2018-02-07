@@ -4,6 +4,7 @@
 
 1、首先SSH登陆极路由，更新软件包
 root@Hiwifi:/etc/aria2c# opkg update
+
 Downloading https://upgrade.hiwifi.com/upgrade_file/mtmips-HC5761A/1.3.5.18462s/packages/Packages.gz.
 Inflating https://upgrade.hiwifi.com/upgrade_file/mtmips-HC5761A/1.3.5.18462s/packages/Packages.gz.
 Updated list of available packages in /var/opkg-lists/barrier_breaker.
